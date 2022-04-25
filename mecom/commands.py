@@ -57,7 +57,7 @@ TEC_PARAMETERS = [
     #Firmware and Hardware Verion
     {"id": 1050, "name": "Firmware Version", "format": "INT32"},
     {"id": 1051, "name": "Firmware Build Number", "format": "INT32"},
-    {"id": 1054, "name": "Min Version for Firmware Downgrade", "format": "INT 32"},
+    {"id": 1054, "name": "Min Version for Firmware Downgrade", "format": "INT32"},
     {"id": 1052, "name": "Hardware Version", "format": "INT32"},
     {"id": 1053, "name": "Serial Number", "format": "INT32"},
     
@@ -95,7 +95,7 @@ TEC_PARAMETERS = [
     
     #CHx Output Stage 'Static Current/Voltage' Control Values
     {"id": 2020, "name": "Set Current", "format": "FLOAT32"},
-    {"id": 2021, "name": "Set Voltage", "format": "FLAOT32"},
+    {"id": 2021, "name": "Set Voltage", "format": "FLOAT32"},
     
     #CHx Output Stage Limits
     {"id": 2030, "name": "Current Limitation", "format": "FLOAT32"},
@@ -146,7 +146,7 @@ TEC_PARAMETERS = [
     #Object Temperature 
     #Chx Object Measurement Settings
     {"id": 4001, "name": "Temperature Offset", "format": "FLOAT32"},
-    {"id": 4002, "name": "Temperature Gain", "format": "FLAOT32"},
+    {"id": 4002, "name": "Temperature Gain", "format": "FLOAT32"},
 
     #CHx Actual Object Temperature Error Limits
     {"id": 4011, "name": "Upper Error Threshold", "format": "FLOAT32"},
@@ -163,7 +163,7 @@ TEC_PARAMETERS = [
     {"id": 4036, "name": "Lowest Voltage", "format": "FLOAT32"},
     {"id": 4030, "name": "Lowest Resistance", "format": "FLOAT32"},
     {"id": 4031, "name": "Highest Resistance", "format": "FLOAT32"},
-    {"id": 4032, "name": "Temperature at Lowest Resistance", "format": "FLAOT32"},
+    {"id": 4032, "name": "Temperature at Lowest Resistance", "format": "FLOAT32"},
     {"id": 4033, "name": "Temperature at Highest Resistance", "format": "FLOAT32"},
     {"id": 4034, "name": "Object Sensor Type", "format": "INT32"},
     
@@ -175,18 +175,18 @@ TEC_PARAMETERS = [
     #CHx Actual Sink Temperature Error Limits
     {"id": 5011, "name": "Upper Error Threshold", "format": "FLOAT32"},
     {"id": 5010, "name": "Lower Error Threshold", "format": "FLOAT32"},
-    {"id": 5012, "name": "Max Temp Change", "format": "FLAOT32"},
+    {"id": 5012, "name": "Max Temp Change", "format": "FLOAT32"},
     
     #CHx Sink Temperature General
     {"id": 5030, "name": "Sink Temperature Selection", "format": "INT32"},
-    {"id": 5031, "name": "Fixed Temperature", "format": "FLAOT32"},
+    {"id": 5031, "name": "Fixed Temperature", "format": "FLOAT32"},
     {"id": 5032, "name": "Upper ADC Limit Error", "format": "INT32"},
     
     #CHx Sink Temperature Measurement Limits (Read Only)
     {"id": 5040, "name": "Lowest Resistance", "format": "FLOAT32"},
     {"id": 5041, "name": "Highest Resistance", "format": "FLOAT32"},
     {"id": 5042, "name": "Temperature at Lowest Resistance", "format": "FLOAT32"},
-    {"id": 5043, "name": "Temperature at Highest Resistance", "format": "FLAOT32"},
+    {"id": 5043, "name": "Temperature at Highest Resistance", "format": "FLOAT32"},
     
     
     #Auto Tuning
@@ -194,19 +194,19 @@ TEC_PARAMETERS = [
     {"id": 51001, "name": "Auto Tuning Cancel", "format": "INT32"},
     {"id": 51002, "name": "Thermal Model Speed", "format": "INT32"},
     {"id": 51010, "name": "Tuning Parameter 2A (Temp peak-peak)", "format": "FLOAT32"},
-    {"id": 51011, "name": "Tuning Parameter 2D (Var peak-peak)", "format": "FLAOT32"},
-    {"id": 51012, "name": "Tuning Parameter Ku (ult. Gain)", "format": "Flaot32"},
+    {"id": 51011, "name": "Tuning Parameter 2D (Var peak-peak)", "format": "FLOAT32"},
+    {"id": 51012, "name": "Tuning Parameter Ku (ult. Gain)", "format": "FLOAT32"},
     {"id": 51013, "name": "Tuning Parameter Tu (ult. period)", "format": "FLOAT32"},
     {"id": 51014, "name": "PID Parameter Kp", "format": "FLAOT32"},
     {"id": 51015, "name": "PID Parameter Ti", "format": "FLOAT32"},
     {"id": 51016, "name": "PID Parameter Td", "format": "FLOAT32"},
     {"id": 51022, "name": "Slow PI Parameter Kp", "format": "FLOAT32"},
-    {"id": 51023, "name": "Slow PI Parameter Ti", "format": "FLAOT32"},
+    {"id": 51023, "name": "Slow PI Parameter Ti", "format": "FLOAT32"},
     {"id": 51024, "name": "PID D Part Damping PT1 Recommendation", "format": "FLOAT32"},
     {"id": 51017, "name": "Coarse Temp Ramp", "format": "FLOAT32"},
     {"id": 51018, "name": "Proximity Width", "format": "FLOAT32"},
     {"id": 51020, "name": "Tuning Status", "format": "INT32"},
-    {"id": 51021, "name": "Tuning Progress", "format": "FLAOT32"},
+    {"id": 51021, "name": "Tuning Progress", "format": "FLOAT32"},
     
     
     #Advanced
@@ -236,22 +236,22 @@ TEC_PARAMETERS = [
     {"id": 4024, "name": "Upper Point: Temperature", "format": "FLOAT32"},
     {"id": 4025, "name": "Upper Point: Resistance", "format": "FLOAT32"},
     {"id": 4022, "name": "Middle Point: Temperature", "format": "FLOAT32"},
-    {"id": 4023, "name": "Middle Point: Resistance", "format": "FLAOT32"},
+    {"id": 4023, "name": "Middle Point: Resistance", "format": "FLOAT32"},
     {"id": 4020, "name": "Lower Point: Temperature", "format": "FLOAT32"},
-    {"id": 4021, "name": "Lower Point: Resistance", "format": "FLAOT32"},
+    {"id": 4021, "name": "Lower Point: Resistance", "format": "FLOAT32"},
     
     #CHx Object Voltage to Temperature Conversion
     {"id": 6400, "name": "Reference Temperature", "format": "FLOAT32"},
-    {"id": 6401, "name": "Reference Voltage", "format": "FLAOT32"},
+    {"id": 6401, "name": "Reference Voltage", "format": "FLOAT32"},
     {"id": 6402, "name": "Temperature Slope", "format": "FLOAT32"},
     
     #CHx Sink NTC Sensor Characteristics
     {"id": 5024, "name": "Upper Point: Temperature", "format": "FLOAT32"},
     {"id": 5025, "name": "Upper Point: Resistance", "format": "FLOAT32"},
-    {"id": 5022, "name": "Middle Point: Temperature", "format": "FLAOT32"},
-    {"id": 5023, "name": "Middle Point: Resistance", "format": "FLAOT32"},
-    {"id": 5020, "name": "Lower Point: Temperature", "format": "FLAOT32"},
-    {"id": 5021, "name": "Lower Point: Resistance", "format": "FLAOT32"},    
+    {"id": 5022, "name": "Middle Point: Temperature", "format": "FLOAT32"},
+    {"id": 5023, "name": "Middle Point: Resistance", "format": "FLOAT32"},
+    {"id": 5020, "name": "Lower Point: Temperature", "format": "FLOAT32"},
+    {"id": 5021, "name": "Lower Point: Resistance", "format": "FLOAT32"},    
     
     #Advanced/ADS Self Check 
     #CHx Object Measurement ADS Self Check Settings. The Parameter 6051 is volatile
@@ -261,7 +261,7 @@ TEC_PARAMETERS = [
 
     #CHx Object Measurement ADS Self Check Result. The folowing Parameters are volatile
     {"id": 6053, "name": "AVDD", "format": "FLOAT32"},
-    {"id": 6054, "name": "IRs", "format": "FLOATT32"},
+    {"id": 6054, "name": "IRs", "format": "FLOAT32"},
     {"id": 6055, "name": "VRef", "format": "FLOAT32"},
     
     #Advanced/Lookup Table 
@@ -341,7 +341,7 @@ TEC_PARAMETERS = [
     {"id": 6330, "name": "Mode", "format": "INT32"},
     
     #Output Stage Controller Limit (Error 108)
-    {"id": 6320, "name": "Error Delay", "format": "INT 32"},
+    {"id": 6320, "name": "Error Delay", "format": "INT32"},
     
     #Other Parameters (Not directly displayed in the Service Software)
     #Power Supply Prameters(Bus-Controlled) Mode Parameters
