@@ -11,8 +11,8 @@ from serial import Serial
 from PyCRC.CRCCCITT import CRCCCITT
 
 # from this package
-from .exceptions import ResponseException, WrongResponseSequence, WrongChecksum, ResponseTimeout, UnknownParameter
-from .commands import TEC_PARAMETERS, LDD_PARAMETERS, ERRORS
+from exceptions import ResponseException, WrongResponseSequence, WrongChecksum, ResponseTimeout, UnknownParameter
+from commands import TEC_PARAMETERS, LDD_PARAMETERS, ERRORS
 
 
 class Parameter(object):
