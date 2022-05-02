@@ -509,17 +509,6 @@ LDD_PARAMETERS = [
     {"id": 4103, "name": "Slave: Slave ID", "format": "INT32"},
     
     
-    '''
-    {"id": 6100, "name": "GPIO Function", "format": "INT32"},
-    {"id": 6101, "name": "GPIO Level Assignment", "format": "INT32"},
-    {"id": 6102, "name": "GPIO Hardware Configuration", "format": "INT32"},
-    {"id": 6103, "name": "GPIO Channel", "format": "INT32"},
-    {"id": 6310, "name": "Delay till Restart", "format": "INT32"},
-    {"id": 52100, "name": "Enable Function", "format": "INT32"},
-    {"id": 52101, "name": "Set Output to Push-Pull", "format": "INT32"},
-    {"id": 52102, "name": "Set Output States", "format": "INT32"},
-    {"id": 52103, "name": "Read Input States", "format": "INT32"},
-    '''
 ]
     
 ERRORS = [
