@@ -447,6 +447,30 @@ LDD_PARAMETERS = [
     #Enable Settings
     {"id": 2020, "name": "Input Source", "format": "INT32"},
     
+    #Laser Power Control
+    #Laser Power (LP) Settings
+    {"id": 5000, "name": "Input Source", "format": "INT32"},
+    {"id": 5001, "name": "LP CW", "format": "FLOAT32"},
+    {"id": 5002, "name": "LP High", "format": "FLOAT32"},
+    {"id": 5003, "name": "LP Low", "format": "FLOAT32"},
+    {"id": 5004, "name": "High Time", "format": "FLOAT32"},
+    {"id": 5005, "name": "Low Time", "format": "FLOAT32"},
+    {"id": 5006, "name": "Rise Time", "format": "FLOAT32"},
+    {"id": 5007, "name": "Fall Time", "format": "FLOAT32"},
+    
+    #PID Laser Power Control Parameters
+    {"id": 5010, "name": "Kp", "format": "FLOAT32"},
+    {"id": 5011, "name": "Ti", "format": "FLOAT32"},
+    {"id": 5012, "name": "Td", "format": "FLOAT32"},
+    {"id": 5013, "name": "Slope Limit", "format": "FLOAT32"},
+    
+    #Laser Power Control Soft-Start Configuration
+    {"id": 5020, "name": "Current Limiter Start Value", "format": "FLOAT32"},
+    {"id": 5021, "name": "Current Limiter Ramp", "format": "FLOAT32"},
+
+    #Laser Power (LP) Measurement Settings
+    {"id": 5030, "name": "LP System Scale", "format": "FLOAT32"},
+    
     #Settings
     #PID Current Control Parameter
     {"id": 3000, "name": "Kp", "format": "FLOAT32"},
